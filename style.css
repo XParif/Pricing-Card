@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.cards {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 300px;
+  height: 600px;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card2 {
+  height: 650px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.card .title {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.title .tag {
+  margin-left: 20px;
+  background: rgb(88, 179, 88);
+  color: white;
+  font-size: 12px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 54px;
+  color: tomato;
+  margin-bottom: 54px;
+}
+
+.features {
+  list-style: none;
+  color: rgb(116, 116, 116);
+  font-size: 18px;
+  line-height: 34px;
+  margin-bottom: 64px;
+}
+
+.card a {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: #ddd;
+  color: black;
+}
+
+.card a:hover,
+.card2 a {
+  background-color: tomato;
+  color: white;
+}
